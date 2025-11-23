@@ -1,0 +1,53 @@
+{
+    "filename": "ASC4.pdf",
+    "page_count": 75,
+    "text_by_page": {
+        "3": "Laws of reflection. Angle of incidence equals angle of reflection (i = r).",
+        "4": "Refraction. Bending of light. Snell's law: sin i / sin r = constant.",
+        "5": "Refractive index n = c/v. Frequency remains constant.",
+        "7": "Total Internal Reflection. Critical angle. Denser to rarer.",
+        "9": "Optical fibres. Core and cladding.",
+        "12": "Theories of light. Newton corpuscular. Huygens wave. Maxwell electromagnetic. Planck quantum.",
+        "15": "Interference. Coherent sources. Constant phase difference.",
+        "16": "Constructive interference path diff n lambda. Destructive (2n+1)lambda/2.",
+        "27": "Diffraction. Bending around corners. Fresnel and Fraunhofer.",
+        "35": "Diffraction grating. (a+b)sin theta = n lambda.",
+        "40": "Polarization. Transverse nature. Polaroids.",
+        "56": "Photoelectric effect. Emission of electrons.",
+        "65": "Einstein equation hv = W + Kmax."
+    },
+    "headings": [
+        {
+            "text": "Reflection",
+            "page": 2
+        },
+        {
+            "text": "Refraction",
+            "page": 4
+        },
+        {
+            "text": "Total Internal Reflection",
+            "page": 6
+        },
+        {
+            "text": "Theories of Light",
+            "page": 12
+        },
+        {
+            "text": "Interference",
+            "page": 14
+        },
+        {
+            "text": "Diffraction",
+            "page": 27
+        },
+        {
+            "text": "Polarization",
+            "page": 40
+        },
+        {
+            "text": "Photoelectric Effect",
+            "page": 56
+        }
+    ]
+}

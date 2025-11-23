@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyMaster - ASC Chapter 4</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>StudyMaster</h1>
+            <nav>
+                <a href="admin.html" class="btn btn-secondary">Admin Login</a>
+            </nav>
+        </header>
+
+        <div id="subject-view">
+            <div class="search-container">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" id="search-input" placeholder="Search topics..." class="search-input">
+            </div>
+            
+            <div class="subject-selector">
+                <button class="subject-btn active" data-subject="ASC">Applied Science (ASC)</button>
+                <button class="subject-btn" data-subject="WSD">Website Designing (WSD)</button>
+                <button class="subject-btn" data-subject="CMS">Communication Skills (CMS)</button>
+            </div>
+
+            <div id="topic-list" class="topic-grid">
+                <!-- Topics will be injected here -->
+            </div>
+        </div>
+
+        <div id="quiz-view" class="hidden">
+            <div class="view-header">
+                <button onclick="UI.showHome()" class="btn btn-text">← Back to Topics</button>
+                <div class="quiz-stats">
+                    <span id="quiz-progress">Question 1/10</span>
+                    <span id="quiz-score">Score: 0</span>
+                </div>
+            </div>
+            <div id="question-container" class="question-card">
+                <!-- Question content -->
+            </div>
+        </div>
+
+        <div id="flashcard-view" class="hidden">
+            <div class="view-header">
+                <button onclick="UI.showHome()" class="btn btn-text">← Back to Topics</button>
+                <span id="fc-progress">1 / 10</span>
+            </div>
+            
+            <div class="flashcard-container">
+                <div id="active-flashcard" class="flashcard" onclick="UI.flipCard()">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <div id="fc-front" class="fc-content">Front Content</div>
+                            <div class="fc-hint">Tap to flip</div>
+                        </div>
+                        <div class="flashcard-back">
+                            <div id="fc-back" class="fc-content">Back Content</div>
+                            <div id="fc-source" class="fc-source">Source: Page 1</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flashcard-controls">
+                <button onclick="UI.prevCard()" class="btn btn-icon" aria-label="Previous">←</button>
+                <button onclick="UI.flipCard()" class="btn btn-primary">Flip</button>
+                <button onclick="UI.nextCard()" class="btn btn-icon" aria-label="Next">→</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/sm2.js"></script>
+    <script src="scripts/storage.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/ui.js"></script>
+</body>
+</html>

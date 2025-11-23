@@ -1,0 +1,1495 @@
+{
+  "subject": "ASC",
+  "topic": "Chapter 4: Optics",
+  "source_file": "/assets/pdfs/ASC4.pdf",
+  "topics": [
+    {
+      "id": "topic_1",
+      "title": "Reflection & Refraction (Snell's Law)",
+      "page_range": "2-6",
+      "summary": "Laws of reflection (i=r) and refraction. Snell's law relates angles and refractive indices. Refractive index n=c/v. Frequency remains constant during refraction.",
+      "mcqs": [
+        {
+          "question": "Which statement correctly expresses the law of reflection?",
+          "options": [
+            "i = r",
+            "i + r = 90°",
+            "i = 2r",
+            "r = 90°"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "i = r",
+          "source_page": 3,
+          "confidence": 0.95
+        },
+        {
+          "question": "Snell's law is written as:",
+          "options": [
+            "n1 sin θ1 = n2 sin θ2",
+            "n1 cos θ1 = n2 cos θ2",
+            "θ1/θ2 = n1/n2",
+            "sin θ1 + sin θ2 = n"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "n1 sin θ1 = n2 sin θ2",
+          "source_page": 4,
+          "confidence": 0.95
+        },
+        {
+          "question": "The refractive index of a medium is defined as:",
+          "options": [
+            "ratio of sine of angles",
+            "speed of light in vacuum divided by speed in medium",
+            "ratio of intensities",
+            "product of speeds"
+          ],
+          "answer_index": 1,
+          "difficulty": "medium",
+          "source_quote": "n = c/v",
+          "source_page": 4,
+          "confidence": 0.95
+        },
+        {
+          "question": "If light passes from air (n ≈ 1.00) into glass (n ≈ 1.5), the refracted ray:",
+          "options": [
+            "bends toward the normal",
+            "bends away from the normal",
+            "remains straight",
+            "reverses direction"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "bends toward normal in denser medium",
+          "source_page": 4,
+          "confidence": 0.9
+        },
+        {
+          "question": "Which quantity remains unchanged when light refracts across an interface?",
+          "options": [
+            "frequency",
+            "wavelength",
+            "speed",
+            "direction"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "frequency remains constant",
+          "source_page": 4,
+          "confidence": 0.95
+        },
+        {
+          "question": "The relationship between wavelength in vacuum (λ0), wavelength in medium (λ), and refractive index (n) is:",
+          "options": [
+            "λ = λ0 / n",
+            "λ = λ0 * n",
+            "λ = λ0 + n",
+            "λ = λ0 − n"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "λ = λ0 / n",
+          "source_page": 4,
+          "confidence": 0.9
+        },
+        {
+          "question": "A ray incident at 30° in medium 1 (n1) emerges in medium 2 (n2) at 15°. Which is true if n2 > n1?",
+          "options": [
+            "angle decreases when entering denser medium",
+            "angle increases",
+            "angle unchanged",
+            "ray reflects only"
+          ],
+          "answer_index": 0,
+          "difficulty": "hard",
+          "source_quote": "angle decreases in denser",
+          "source_page": 4,
+          "confidence": 0.85
+        },
+        {
+          "question": "Which of the following is a correct effect of increasing refractive index of a medium?",
+          "options": [
+            "light speed decreases",
+            "frequency decreases",
+            "energy decreases",
+            "polarization changes inherently"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "speed decreases with higher n",
+          "source_page": 4,
+          "confidence": 0.9
+        },
+        {
+          "question": "At a boundary, the amplitude of transmitted light depends mainly on:",
+          "options": [
+            "refractive indices and angle of incidence",
+            "temperature only",
+            "frequency only",
+            "time of day"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 4,
+          "confidence": 0.75
+        },
+        {
+          "question": "Which optical law is used to derive the path of least time (Fermat's principle) for refraction?",
+          "options": [
+            "Snell's law",
+            "law of reflection only",
+            "Huygens' principle only",
+            "Planck's hypothesis"
+          ],
+          "answer_index": 0,
+          "difficulty": "hard",
+          "source_quote": "Fermat principle and Snell's law",
+          "source_page": 4,
+          "confidence": 0.8
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "State the law of reflection.",
+          "back": "Angle of incidence equals angle of reflection (i = r).",
+          "source_page": 3,
+          "confidence": 0.95
+        },
+        {
+          "front": "Write Snell's law.",
+          "back": "n1 sin θ1 = n2 sin θ2.",
+          "source_page": 4,
+          "confidence": 0.95
+        },
+        {
+          "front": "What is refractive index?",
+          "back": "n = c/v, ratio of speed of light in vacuum to speed in medium.",
+          "source_page": 4,
+          "confidence": 0.95
+        },
+        {
+          "front": "Does frequency change during refraction?",
+          "back": "No — frequency stays same; wavelength and speed change.",
+          "source_page": 4,
+          "confidence": 0.95
+        },
+        {
+          "front": "Relationship between λ (in medium) and λ0 (vacuum).",
+          "back": "λ = λ0 / n.",
+          "source_page": 4,
+          "confidence": 0.95
+        },
+        {
+          "front": "Why does light bend toward normal when entering denser medium?",
+          "back": "Speed reduces in denser medium, changing direction per Snell's law.",
+          "source_page": 4,
+          "confidence": 0.9
+        },
+        {
+          "front": "Define optical path length.",
+          "back": "Product of refractive index and geometric length; used in interference calculations.",
+          "source_page": 5,
+          "confidence": 0.85
+        },
+        {
+          "front": "How are angles measured in reflection/refraction diagrams?",
+          "back": "Angles measured from the normal to the interface, not from surface.",
+          "source_page": 3,
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "id": "topic_2",
+      "title": "Total Internal Reflection & Fibre Optics",
+      "page_range": "6-11",
+      "summary": "TIR occurs when light travels from denser to rarer medium at angle > critical angle. Optical fibers use repeated TIR for communication and endoscopy.",
+      "mcqs": [
+        {
+          "question": "Total internal reflection occurs when light tries to go from:",
+          "options": [
+            "denser to rarer medium at angle > critical angle",
+            "rarer to denser",
+            "vacuum to glass",
+            "medium to same medium"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "denser to rarer, i > c",
+          "source_page": 6,
+          "confidence": 0.95
+        },
+        {
+          "question": "Critical angle is defined as the angle of incidence that produces:",
+          "options": [
+            "refracted ray at 90° to normal",
+            "maximum refraction",
+            "reflection only",
+            "absorption"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "refraction angle = 90°",
+          "source_page": 6,
+          "confidence": 0.95
+        },
+        {
+          "question": "For TIR to occur the refractive index of the first medium must be:",
+          "options": [
+            "greater than second",
+            "less",
+            "equal",
+            "irrelevant"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "n1 > n2",
+          "source_page": 6,
+          "confidence": 0.95
+        },
+        {
+          "question": "Optical fibers guide light by:",
+          "options": [
+            "repeated TIR",
+            "diffraction",
+            "polarization",
+            "absorption-emission cycle"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "repeated total internal reflection",
+          "source_page": 9,
+          "confidence": 0.95
+        },
+        {
+          "question": "Single-mode fiber differs from multimode fiber by:",
+          "options": [
+            "supporting only one propagation mode",
+            "being thicker",
+            "using TIR less",
+            "same as multimode"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 10,
+          "confidence": 0.75
+        },
+        {
+          "question": "Which application commonly uses fiber optics?",
+          "options": [
+            "endoscopes",
+            "mechanical gears",
+            "solar panels",
+            "wind turbines"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "used in endoscopes",
+          "source_page": 8,
+          "confidence": 0.95
+        },
+        {
+          "question": "The numerical aperture (NA) of a fiber relates to:",
+          "options": [
+            "acceptance angle and refractive indices",
+            "length only",
+            "optical power directly",
+            "speed of light"
+          ],
+          "answer_index": 0,
+          "difficulty": "hard",
+          "inferred": true,
+          "source_page": 9,
+          "confidence": 0.7
+        },
+        {
+          "question": "If the incident angle equals the critical angle, what is observed?",
+          "options": [
+            "refracted ray grazes the surface (90°)",
+            "complete reflection",
+            "no light transmitted",
+            "absorption"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "grazing emergence at critical angle",
+          "source_page": 6,
+          "confidence": 0.9
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Define critical angle.",
+          "back": "Minimum angle of incidence in denser medium at which refraction angle becomes 90°; beyond it TIR occurs.",
+          "source_page": 6,
+          "confidence": 0.95
+        },
+        {
+          "front": "How do optical fibers confine light?",
+          "back": "By repeated total internal reflections between core and cladding with higher core index.",
+          "source_page": 9,
+          "confidence": 0.95
+        },
+        {
+          "front": "State one major application of optical fibers.",
+          "back": "Medical endoscopes and long-distance communications.",
+          "source_page": 8,
+          "confidence": 0.95
+        },
+        {
+          "front": "What happens to transmitted intensity as incidence approaches critical angle?",
+          "back": "Transmitted intensity decreases; energy increasingly reflected until TIR.",
+          "source_page": 6,
+          "confidence": 0.8,
+          "inferred": true
+        },
+        {
+          "front": "How does numerical aperture affect fiber coupling?",
+          "back": "Higher NA accepts larger input cone of light; easier coupling.",
+          "source_page": 9,
+          "confidence": 0.75,
+          "inferred": true
+        },
+        {
+          "front": "Why must core and cladding indices differ?",
+          "back": "To ensure TIR inside core; core index > cladding index.",
+          "source_page": 9,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "id": "topic_3",
+      "title": "Nature of Light & Theories",
+      "page_range": "12",
+      "summary": "Historical theories: Newton's corpuscular (particles), Huygens' wave (wavefronts), Maxwell's electromagnetic, and Planck's quantum theory.",
+      "mcqs": [
+        {
+          "question": "Which theory treated light as particles?",
+          "options": [
+            "Newton's corpuscular theory",
+            "Huygens' wave theory",
+            "Maxwell's",
+            "Planck's only"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "Newton corpuscular theory",
+          "source_page": 12,
+          "confidence": 0.95
+        },
+        {
+          "question": "Huygens' principle explains:",
+          "options": [
+            "wavefront propagation by secondary wavelets",
+            "particle emission",
+            "quantum transitions",
+            "polarization only"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "wavefront by secondary wavelets",
+          "source_page": 12,
+          "confidence": 0.95
+        },
+        {
+          "question": "Maxwell unified electricity and magnetism and predicted that light is:",
+          "options": [
+            "electromagnetic waves",
+            "particles only",
+            "sound waves",
+            "heat flow"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "electromagnetic waves",
+          "source_page": 12,
+          "confidence": 0.95
+        },
+        {
+          "question": "Planck introduced quantization to solve which problem?",
+          "options": [
+            "black-body radiation spectrum",
+            "reflection law",
+            "interference",
+            "diffraction"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "black-body radiation",
+          "source_page": 12,
+          "confidence": 0.95
+        },
+        {
+          "question": "Which concept is central to Einstein's photoelectric explanation?",
+          "options": [
+            "light energy comes in quanta (photons)",
+            "light is continuous",
+            "light is a fluid",
+            "light is static"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "photons, quanta",
+          "source_page": 61,
+          "confidence": 0.95
+        },
+        {
+          "question": "Which observation forced particle-like description of light?",
+          "options": [
+            "photoelectric effect",
+            "diffraction",
+            "mirror reflection",
+            "refraction"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "photoelectric effect",
+          "source_page": 61,
+          "confidence": 0.95
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Summarize Huygens' principle.",
+          "back": "Every point on a wavefront acts as a source of secondary spherical wavelets; new wavefront is envelope of these wavelets.",
+          "source_page": 12,
+          "confidence": 0.95
+        },
+        {
+          "front": "What did Maxwell show about light?",
+          "back": "Light is an electromagnetic wave; electric and magnetic fields oscillate perpendicular to direction of propagation.",
+          "source_page": 12,
+          "confidence": 0.95
+        },
+        {
+          "front": "Planck's key postulate.",
+          "back": "Energy exchange in oscillators is quantized: E = nhν (n integer).",
+          "source_page": 12,
+          "confidence": 0.9,
+          "inferred": true
+        },
+        {
+          "front": "Why was Einstein important for light theory?",
+          "back": "He proposed photons—quantized light packets—explaining the photoelectric effect (E = hν).",
+          "source_page": 61,
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "id": "topic_4",
+      "title": "Interference (Young's Double Slit)",
+      "page_range": "14-22",
+      "summary": "Interference is superposition of waves. Constructive (bright) at path difference = mλ, destructive (dark) at (m+½)λ. Requires coherent sources.",
+      "mcqs": [
+        {
+          "question": "Constructive interference occurs when path difference =",
+          "options": [
+            "mλ (m integer)",
+            "λ/2",
+            "λ/4",
+            "2λ + λ/2"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "path difference = mλ",
+          "source_page": 16,
+          "confidence": 0.95
+        },
+        {
+          "question": "Destructive interference occurs when path difference =",
+          "options": [
+            "(m + 1/2)λ",
+            "mλ",
+            "2mλ",
+            "3λ"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "path difference = (m + 1/2)λ",
+          "source_page": 16,
+          "confidence": 0.95
+        },
+        {
+          "question": "In Young's double-slit experiment, fringe spacing on screen depends on:",
+          "options": [
+            "wavelength, slit separation, and screen distance",
+            "only wavelength",
+            "color of screen",
+            "source amplitude only"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "depends on λ, D, d",
+          "source_page": 18,
+          "confidence": 0.95
+        },
+        {
+          "question": "Coherent sources mean:",
+          "options": [
+            "constant phase difference and same frequency",
+            "different frequencies",
+            "uncorrelated amplitudes",
+            "variable phase difference"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "constant phase difference",
+          "source_page": 15,
+          "confidence": 0.95
+        },
+        {
+          "question": "If wavelength increases, fringe separation:",
+          "options": [
+            "increases",
+            "decreases",
+            "unchanged",
+            "disappears"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "fringe width ∝ λ",
+          "source_page": 18,
+          "confidence": 0.9
+        },
+        {
+          "question": "Bright fringes correspond to:",
+          "options": [
+            "constructive interference",
+            "destructive",
+            "absorption",
+            "scattering"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "constructive = bright",
+          "source_page": 16,
+          "confidence": 0.95
+        },
+        {
+          "question": "Which of these reduces fringe visibility?",
+          "options": [
+            "partial coherence",
+            "perfect coherence",
+            "monochromatic light",
+            "very narrow slits"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "coherence affects visibility",
+          "source_page": 15,
+          "confidence": 0.85
+        },
+        {
+          "question": "For small angle approximation, fringe spacing y ≈ (Dλ)/d, where D is screen distance, d slit separation. Which variable in denominator reduces spacing?",
+          "options": [
+            "increasing d",
+            "increasing D",
+            "increasing λ",
+            "decreasing d"
+          ],
+          "answer_index": 0,
+          "difficulty": "hard",
+          "source_quote": "y = Dλ/d",
+          "source_page": 18,
+          "confidence": 0.9
+        },
+        {
+          "question": "Double-slit works poorly with incoherent sources because:",
+          "options": [
+            "phase relation varies",
+            "intensity too high",
+            "slits get blocked",
+            "screen reflects light"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "requires coherence",
+          "source_page": 15,
+          "confidence": 0.9
+        },
+        {
+          "question": "What produces the central bright fringe position?",
+          "options": [
+            "equal path from two slits (zero path difference)",
+            "maximum path difference",
+            "irrelevant",
+            "center absorbs light"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "zero path difference",
+          "source_page": 17,
+          "confidence": 0.95
+        },
+        {
+          "question": "If two sources have frequency mismatch, interference pattern:",
+          "options": [
+            "washes out over time",
+            "sharpens",
+            "inverts",
+            "doubles intensity always"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 15,
+          "confidence": 0.75
+        },
+        {
+          "question": "The intensity of interference fringes depends on amplitude and phase; maximum intensity when:",
+          "options": [
+            "amplitudes add in phase",
+            "amplitudes cancel",
+            "frequency doubles",
+            "slit width zero"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "in-phase addition",
+          "source_page": 16,
+          "confidence": 0.9
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is path difference for constructive interference?",
+          "back": "Any integer multiple of wavelength: Δ = mλ.",
+          "source_page": 16,
+          "confidence": 0.95
+        },
+        {
+          "front": "Define coherence.",
+          "back": "Constant phase relationship and same frequency over time between sources.",
+          "source_page": 15,
+          "confidence": 0.95
+        },
+        {
+          "front": "Formula for fringe spacing in double-slit (small angle).",
+          "back": "y = Dλ/d (approx), where D = screen distance, d = slit separation.",
+          "source_page": 18,
+          "confidence": 0.95
+        },
+        {
+          "front": "Why does using white light produce multiple colored fringes?",
+          "back": "Different wavelengths produce different fringe separations; colors separate spatially.",
+          "source_page": 18,
+          "confidence": 0.85,
+          "inferred": true
+        },
+        {
+          "front": "What reduces visibility of fringes?",
+          "back": "Incoherence, unequal amplitudes, spectral width, or misalignment.",
+          "source_page": 15,
+          "confidence": 0.8,
+          "inferred": true
+        },
+        {
+          "front": "Central maximum condition.",
+          "back": "Zero path difference between the two slits (m = 0).",
+          "source_page": 17,
+          "confidence": 0.95
+        },
+        {
+          "front": "How to get sharper fringes?",
+          "back": "Increase coherence and monochromaticity; increase D/d ratio.",
+          "source_page": 18,
+          "confidence": 0.8,
+          "inferred": true
+        },
+        {
+          "front": "Effect of slit width on fringe visibility.",
+          "back": "Wider slits increase diffraction envelope; may reduce fringe contrast.",
+          "source_page": 18,
+          "confidence": 0.75,
+          "inferred": true
+        }
+      ]
+    },
+    {
+      "id": "topic_5",
+      "title": "Diffraction & Diffraction Grating",
+      "page_range": "27, 35-36",
+      "summary": "Diffraction is bending of light around obstacles. Fraunhofer (far-field) vs Fresnel (near-field). Gratings: d sin θ = nλ for spectral analysis.",
+      "mcqs": [
+        {
+          "question": "Fraunhofer diffraction is observed when:",
+          "options": [
+            "source and screen are effectively at infinite distance (parallel rays)",
+            "source is very close",
+            "medium absorbs light",
+            "slit very wide"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "parallel rays, far-field",
+          "source_page": 27,
+          "confidence": 0.95
+        },
+        {
+          "question": "The grating equation is:",
+          "options": [
+            "d sin θ = nλ",
+            "n sin θ = dλ",
+            "λ = d/n",
+            "θ = d/nλ"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "d sin θ = nλ",
+          "source_page": 35,
+          "confidence": 0.95
+        },
+        {
+          "question": "Higher order maxima in a grating correspond to:",
+          "options": [
+            "larger values of n in d sin θ = nλ",
+            "lower wavelengths only",
+            "no interference",
+            "absorption bands"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "higher order n",
+          "source_page": 35,
+          "confidence": 0.9
+        },
+        {
+          "question": "Diffraction causes:",
+          "options": [
+            "spreading of waves when passing through apertures",
+            "total reflection",
+            "amplification only",
+            "polarization only"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "spreading, bending",
+          "source_page": 27,
+          "confidence": 0.95
+        },
+        {
+          "question": "Which is true of Fresnel diffraction?",
+          "options": [
+            "near-field diffraction",
+            "same as Fraunhofer",
+            "no diffraction",
+            "only for particles"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "near-field",
+          "source_page": 27,
+          "confidence": 0.95
+        },
+        {
+          "question": "Resolving power of a grating increases with:",
+          "options": [
+            "number of slits illuminated",
+            "slit width alone",
+            "screen color",
+            "ambient temperature"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 36,
+          "confidence": 0.75
+        },
+        {
+          "question": "If slit width is comparable to wavelength, diffraction:",
+          "options": [
+            "is significant and pattern broad",
+            "negligible",
+            "stops",
+            "amplifies infinitely"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "significant when comparable",
+          "source_page": 27,
+          "confidence": 0.9
+        },
+        {
+          "question": "A transmission grating disperses light because:",
+          "options": [
+            "each slit produces waves that interfere at different angles by wavelength",
+            "it absorbs colors",
+            "it electrically polarizes light",
+            "it heats up"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "wavelength-dependent angles",
+          "source_page": 35,
+          "confidence": 0.9
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Grating equation.",
+          "back": "d sin θ = nλ; d = grating spacing, n = order.",
+          "source_page": 35,
+          "confidence": 0.95
+        },
+        {
+          "front": "Fraunhofer vs Fresnel.",
+          "back": "Fraunhofer = far-field (parallel rays), Fresnel = near-field (curved wavefronts).",
+          "source_page": 27,
+          "confidence": 0.95
+        },
+        {
+          "front": "What increases spectral resolution in a grating?",
+          "back": "More illuminated slits (larger N) and higher order.",
+          "source_page": 36,
+          "confidence": 0.8,
+          "inferred": true
+        },
+        {
+          "front": "When does single-slit diffraction produce central maximum only?",
+          "back": "When slit width is comparable to wavelength, central maximum dominates and side maxima are faint.",
+          "source_page": 27,
+          "confidence": 0.75,
+          "inferred": true
+        },
+        {
+          "front": "Why do diffraction patterns depend on aperture shape?",
+          "back": "Pattern is Fourier transform of aperture function; shape controls intensity distribution.",
+          "source_page": 27,
+          "confidence": 0.7,
+          "inferred": true
+        },
+        {
+          "front": "Use of diffraction gratings.",
+          "back": "Spectral analysis, wavelength measurement, monochromators.",
+          "source_page": 36,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "id": "topic_6",
+      "title": "Polarization",
+      "page_range": "40",
+      "summary": "Polarization restricts light vibrations to a plane. Polaroids transmit one component. Applications: Brewster angle, wave plates.",
+      "mcqs": [
+        {
+          "question": "Plane polarized light has:",
+          "options": [
+            "electric field oscillating in a single plane",
+            "circular motion only",
+            "no electric field",
+            "multiple frequencies only"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "single plane oscillation",
+          "source_page": 40,
+          "confidence": 0.95
+        },
+        {
+          "question": "Polaroid sheets work by:",
+          "options": [
+            "absorbing one component of vibration",
+            "increasing frequency",
+            "reflecting light",
+            "emitting photons"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "absorbs one component",
+          "source_page": 40,
+          "confidence": 0.95
+        },
+        {
+          "question": "When unpolarized light passes through two ideal polarizers at 90°, transmitted intensity is:",
+          "options": [
+            "zero",
+            "half initial",
+            "double",
+            "unchanged"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 40,
+          "confidence": 0.85
+        },
+        {
+          "question": "Brewster's angle is associated with:",
+          "options": [
+            "reflected light becoming plane polarized",
+            "complete absorption",
+            "diffraction only",
+            "TIR only"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 40,
+          "confidence": 0.8
+        },
+        {
+          "question": "Circularly polarized light:",
+          "options": [
+            "has E vector rotating with constant magnitude",
+            "oscillates in one plane",
+            "is unpolarized",
+            "is incoherent"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 40,
+          "confidence": 0.75
+        },
+        {
+          "question": "A quarter-wave plate is used to:",
+          "options": [
+            "convert linear to circular polarization (and vice versa)",
+            "block light entirely",
+            "increase intensity",
+            "change frequency"
+          ],
+          "answer_index": 0,
+          "difficulty": "hard",
+          "inferred": true,
+          "source_page": 40,
+          "confidence": 0.7
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "Define plane polarized light.",
+          "back": "Light whose E-field oscillates in one fixed plane perpendicular to direction of travel.",
+          "source_page": 40,
+          "confidence": 0.95
+        },
+        {
+          "front": "How does a polaroid sheet polarize light?",
+          "back": "It transmits one component of electric vibration and absorbs the orthogonal component.",
+          "source_page": 40,
+          "confidence": 0.95
+        },
+        {
+          "front": "What is Brewster's angle condition?",
+          "back": "Angle where reflected light is fully polarized; tan θB = n2/n1.",
+          "source_page": 40,
+          "confidence": 0.8,
+          "inferred": true
+        },
+        {
+          "front": "Purpose of quarter-wave plate.",
+          "back": "Introduce 90° phase shift between orthogonal components, producing circular or elliptical polarization.",
+          "source_page": 40,
+          "confidence": 0.75,
+          "inferred": true
+        },
+        {
+          "front": "How to extinguish light with polarizers?",
+          "back": "Place two linear polarizers crossed at 90°; transmitted intensity tends to zero.",
+          "source_page": 40,
+          "confidence": 0.85,
+          "inferred": true
+        }
+      ]
+    },
+    {
+      "id": "topic_7",
+      "title": "Photoelectric Effect & Photocell",
+      "page_range": "56-74",
+      "summary": "Emission of electrons when light hits metal. Einstein's equation: K_max = hν − Φ. Key: threshold frequency, work function, stopping potential.",
+      "mcqs": [
+        {
+          "question": "Einstein's photoelectric equation is:",
+          "options": [
+            "K_max = hν − Φ",
+            "E = mc^2",
+            "p = h/λ",
+            "V = IR"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "K_max = hν − Φ",
+          "source_page": 61,
+          "confidence": 0.95
+        },
+        {
+          "question": "Threshold frequency (ν0) is:",
+          "options": [
+            "minimum frequency required to emit electrons",
+            "maximum",
+            "independent of metal",
+            "same as stopping potential"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "minimum frequency",
+          "source_page": 61,
+          "confidence": 0.95
+        },
+        {
+          "question": "Which factor does NOT affect maximum kinetic energy of photoelectrons?",
+          "options": [
+            "intensity of incident light",
+            "frequency of light",
+            "work function",
+            "material of cathode"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "KE independent of intensity",
+          "source_page": 63,
+          "confidence": 0.95
+        },
+        {
+          "question": "Increasing light intensity at frequency above threshold causes:",
+          "options": [
+            "greater photoelectron current",
+            "higher kinetic energy of electrons",
+            "higher work function",
+            "decreased current"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "current proportional to intensity",
+          "source_page": 63,
+          "confidence": 0.95
+        },
+        {
+          "question": "Stopping potential is used to:",
+          "options": [
+            "measure maximum kinetic energy of emitted electrons",
+            "increase emission",
+            "change frequency",
+            "measure intensity only"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "stopping potential measures KE",
+          "source_page": 64,
+          "confidence": 0.95
+        },
+        {
+          "question": "If incident frequency is below threshold, photoemission:",
+          "options": [
+            "does not occur regardless of intensity",
+            "occurs with high intensity",
+            "increases kinetic energy only",
+            "depends on voltage"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "no emission below threshold",
+          "source_page": 61,
+          "confidence": 0.95
+        },
+        {
+          "question": "Work function Φ is:",
+          "options": [
+            "minimum energy needed to free an electron",
+            "maximum KE",
+            "voltage only",
+            "wavelength of light"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "minimum energy to free electron",
+          "source_page": 61,
+          "confidence": 0.95
+        },
+        {
+          "question": "Photoelectric effect confirmed particle nature of light because:",
+          "options": [
+            "KE depends on frequency not intensity",
+            "KE depends on intensity only",
+            "electrons not emitted",
+            "light absorbed always"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "frequency dependence proves photons",
+          "source_page": 63,
+          "confidence": 0.95
+        },
+        {
+          "question": "In a photocell, increasing anode potential (positive) results in:",
+          "options": [
+            "increased collection of photoelectrons",
+            "decreased current",
+            "no change",
+            "emission stops"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 68,
+          "confidence": 0.8
+        },
+        {
+          "question": "Graph of KE vs frequency is linear with slope equal to:",
+          "options": [
+            "Planck's constant h",
+            "work function",
+            "electron charge",
+            "speed of light"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "slope = h",
+          "source_page": 63,
+          "confidence": 0.95
+        },
+        {
+          "question": "If stopping potential increases, maximum KE of electrons:",
+          "options": [
+            "increases",
+            "decreases",
+            "unchanged",
+            "zero"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 64,
+          "confidence": 0.8
+        },
+        {
+          "question": "What would double the photocurrent for ν > ν0 (keeping other factors constant)?",
+          "options": [
+            "double intensity (more photons)",
+            "half intensity",
+            "double work function",
+            "decrease frequency"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "current ∝ intensity",
+          "source_page": 63,
+          "confidence": 0.9
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "State Einstein's photoelectric equation.",
+          "back": "K_max = hν − Φ, where Φ is work function.",
+          "source_page": 61,
+          "confidence": 0.95
+        },
+        {
+          "front": "Define work function.",
+          "back": "Minimum energy to remove an electron from metal surface (material-specific).",
+          "source_page": 61,
+          "confidence": 0.95
+        },
+        {
+          "front": "What is threshold frequency?",
+          "back": "ν0 = Φ/h; minimum frequency needed to eject electrons.",
+          "source_page": 61,
+          "confidence": 0.95
+        },
+        {
+          "front": "How does intensity affect photoelectric emission?",
+          "back": "For ν > ν0, intensity increases electron emission rate (current), not KE.",
+          "source_page": 63,
+          "confidence": 0.95
+        },
+        {
+          "front": "How to measure maximum kinetic energy of photoelectrons?",
+          "back": "Use stopping potential V0: eV0 = K_max.",
+          "source_page": 64,
+          "confidence": 0.95
+        },
+        {
+          "front": "Why photoelectric effect contradicts classical wave theory?",
+          "back": "Classical expected KE to rise with intensity; experiments showed KE depends on frequency only.",
+          "source_page": 63,
+          "confidence": 0.95
+        },
+        {
+          "front": "How is Planck's constant observed in photoelectric experiments?",
+          "back": "Slope of K_max vs ν graph equals h.",
+          "source_page": 63,
+          "confidence": 0.95
+        },
+        {
+          "front": "What is stopping potential?",
+          "back": "Minimum reverse potential to stop photoelectrons from reaching anode; relates to max KE.",
+          "source_page": 64,
+          "confidence": 0.95
+        },
+        {
+          "front": "Photocell working principle in one line.",
+          "back": "Photoemission from cathode; emitted electrons collected at anode producing current proportional to photon flux.",
+          "source_page": 68,
+          "confidence": 0.85,
+          "inferred": true
+        },
+        {
+          "front": "How to increase sensitivity of a photocell?",
+          "back": "Use low-work-function cathode, increase collection efficiency, and reduce dark current.",
+          "source_page": 68,
+          "confidence": 0.75,
+          "inferred": true
+        }
+      ]
+    },
+    {
+      "id": "topic_8",
+      "title": "Mixed Topics & Quick Revision",
+      "page_range": "Various",
+      "summary": "Cross-topic questions covering wave-particle duality, thin films, gratings, applications, and general optics principles.",
+      "mcqs": [
+        {
+          "question": "Which of these is NOT evidence for wave nature of light?",
+          "options": [
+            "Photoelectric effect",
+            "Diffraction",
+            "Interference",
+            "Polarization"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "photoelectric shows particle nature",
+          "source_page": 61,
+          "confidence": 0.95
+        },
+        {
+          "question": "Which parameter of light remains constant when it passes into another medium?",
+          "options": [
+            "frequency",
+            "speed",
+            "wavelength",
+            "amplitude"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "frequency constant",
+          "source_page": 4,
+          "confidence": 0.95
+        },
+        {
+          "question": "What effect causes colors in a soap film?",
+          "options": [
+            "thin-film interference",
+            "diffraction grating",
+            "TIR",
+            "photoelectric effect"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 18,
+          "confidence": 0.8
+        },
+        {
+          "question": "In gratings, increasing lines per mm does what to angular dispersion?",
+          "options": [
+            "increases dispersion",
+            "decreases",
+            "no effect",
+            "eliminates maxima"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 36,
+          "confidence": 0.75
+        },
+        {
+          "question": "Which is necessary for bright interference fringes?",
+          "options": [
+            "coherence",
+            "incoherence",
+            "high temperature",
+            "magnetic field"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "coherence required",
+          "source_page": 15,
+          "confidence": 0.95
+        },
+        {
+          "question": "Brewster's angle occurs for polarized reflected light when:",
+          "options": [
+            "tan θB = n2/n1",
+            "θB = 90°",
+            "θB = 0°",
+            "sin θB = n1/n2"
+          ],
+          "answer_index": 0,
+          "difficulty": "hard",
+          "inferred": true,
+          "source_page": 40,
+          "confidence": 0.7
+        },
+        {
+          "question": "Which device measures wavelength using interference?",
+          "options": [
+            "diffraction grating spectrometer",
+            "voltmeter",
+            "ammeter",
+            "oscilloscope"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "grating for spectroscopy",
+          "source_page": 36,
+          "confidence": 0.9
+        },
+        {
+          "question": "Which phenomenon is exploited in anti-reflective coatings?",
+          "options": [
+            "destructive interference",
+            "TIR",
+            "photoelectric effect",
+            "diffraction"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 18,
+          "confidence": 0.75
+        },
+        {
+          "question": "Why are monochromators used in interference experiments?",
+          "options": [
+            "provide nearly single wavelength for sharp fringes",
+            "increase intensity only",
+            "polarize light",
+            "make light incoherent"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 18,
+          "confidence": 0.75
+        },
+        {
+          "question": "Work function units are:",
+          "options": [
+            "joules (or eV)",
+            "meters",
+            "seconds",
+            "tesla"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "energy units",
+          "source_page": 61,
+          "confidence": 0.95
+        },
+        {
+          "question": "If two waves are in antiphase, their superposition leads to:",
+          "options": [
+            "cancellation (destructive interference)",
+            "amplification",
+            "refraction",
+            "polarization"
+          ],
+          "answer_index": 0,
+          "difficulty": "easy",
+          "source_quote": "antiphase cancels",
+          "source_page": 16,
+          "confidence": 0.95
+        },
+        {
+          "question": "What parameter does a quarter-wave plate change?",
+          "options": [
+            "phase between orthogonal components",
+            "amplitude only",
+            "frequency only",
+            "refractive index"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "inferred": true,
+          "source_page": 40,
+          "confidence": 0.7
+        },
+        {
+          "question": "In a double-slit, increasing screen distance D does what to fringe spacing?",
+          "options": [
+            "increases spacing",
+            "decreases",
+            "no change",
+            "disappears"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "y ∝ D",
+          "source_page": 18,
+          "confidence": 0.9
+        },
+        {
+          "question": "Which effect proves quantization of energy?",
+          "options": [
+            "photoelectric effect and black-body radiation",
+            "diffraction only",
+            "polarization only",
+            "TIR only"
+          ],
+          "answer_index": 0,
+          "difficulty": "medium",
+          "source_quote": "quantization in photoelectric",
+          "source_page": 61,
+          "confidence": 0.95
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "What is fringe visibility?",
+          "back": "Measure of contrast between bright and dark fringes; (I_max − I_min)/(I_max + I_min).",
+          "source_page": 16,
+          "confidence": 0.8,
+          "inferred": true
+        },
+        {
+          "front": "Definition of coherence length.",
+          "back": "Length over which light maintains predictable phase relation; related to spectral width.",
+          "source_page": 15,
+          "confidence": 0.75,
+          "inferred": true
+        },
+        {
+          "front": "Use of optical fibers in communications.",
+          "back": "Low-loss, high-bandwidth transmission via TIR in core with cladding.",
+          "source_page": 9,
+          "confidence": 0.9
+        },
+        {
+          "front": "Why does KE not depend on intensity in photoelectric effect?",
+          "back": "Each photon has energy hν; intensity only changes photon flux, not energy per photon.",
+          "source_page": 63,
+          "confidence": 0.95
+        },
+        {
+          "front": "Practical test for polarization.",
+          "back": "Rotating a linear polarizer in front of polarized light changes intensity as cos^2(θ).",
+          "source_page": 40,
+          "confidence": 0.8,
+          "inferred": true
+        },
+        {
+          "front": "What is numerical aperture (NA)?",
+          "back": "Measure of light acceptance cone of a fiber; NA = n0 sin θ_accept.",
+          "source_page": 9,
+          "confidence": 0.75,
+          "inferred": true
+        },
+        {
+          "front": "Quick tip to identify interference vs diffraction experiment.",
+          "back": "Interference uses few coherent sources (slits); diffraction emphasizes aperture shape and single-slit patterns.",
+          "source_page": 27,
+          "confidence": 0.8,
+          "inferred": true
+        }
+      ]
+    }
+  ]
+}
